@@ -76,7 +76,6 @@ INSERT INTO `orders` (`sl_no`, `r_id`, `order_id`, `dt`, `name`, `user_id`, `ord
 -- --------------------------------------------------------
 
 --
-<<<<<<< HEAD
 -- User interaction tracking table
 CREATE TABLE user_interactions (
     interaction_id BIGINT PRIMARY KEY AUTO_INCREMENT,
@@ -125,8 +124,6 @@ CREATE TABLE recommendation_weights (
     last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-=======
->>>>>>> 7771d633fe55fb47ca8976c7df47158059e58b56
 -- Table structure for table `restaurant`
 --
 
